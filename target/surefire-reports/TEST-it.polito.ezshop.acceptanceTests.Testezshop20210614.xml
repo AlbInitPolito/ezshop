@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.705" tests="32" errors="1" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\test-classes;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\classes;C:\Users\alber\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\alber\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alber\.m2\repository\org\jdatepicker\jdatepicker\1.3.4\jdatepicker-1.3.4.jar;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\lib\ezshop-gui.jar;C:\Users\alber\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\alber\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\alber\AppData\Local\Temp\surefire6907186947411857795\surefirebooter6557039910990613280.jar C:\Users\alber\AppData\Local\Temp\surefire6907186947411857795 2021-06-17T12-01-30_842-jvmRun1 surefire2966946541667665233tmp surefire_03207946807068791896tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\test-classes;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\classes;C:\Users\alber\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\alber\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alber\.m2\repository\org\jdatepicker\jdatepicker\1.3.4\jdatepicker-1.3.4.jar;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\lib\ezshop-gui.jar;C:\Users\alber\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\alber\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\alber"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\alber\AppData\Local\Temp\surefire6907186947411857795\surefirebooter6557039910990613280.jar;C:\\Users\\alber\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.3\\org.jacoco.agent-0.8.3-runtime.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="alber"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\alber\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\alber\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;%SPARK_HOME%\bin;%HADOOP_HOME%\bin;C:\apache-maven-3.8.1\bin;C:\Users\alber\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\alber\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\alber\AppData\Local\Microsoft\WindowsApps;C:\Users\alber\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alber\.dotnet\tools;C:\Users\alber\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Users\alber\AppData\Local\Programs\Python\Python39\Lib\;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testRecordOrderArrivalRFIDNoLoc" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testAddProductToSaleRFIDNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testRecordOrderArrivalRFIDInvalidRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.016"/>
+  <testcase name="testReturnProductRFIDZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.016"/>
+  <testcase name="testReturnProductEmptyRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testDeleteProductFromSaleRFIDNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.016"/>
+  <testcase name="testDeleteProductFromSaleRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.126">
+    <failure message="Error in test testDeleteProductFromSaleRFID: This operation should not fail" type="java.lang.AssertionError">java.lang.AssertionError: Error in test testDeleteProductFromSaleRFID: This operation should not fail
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testDeleteProductFromSaleRFID(Testezshop20210614.java:747)
+</failure>
+  </testcase>
+  <testcase name="testDeleteProductFromSaleRFIDNullRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.063"/>
+  <testcase name="testRecordOrderArrivalRFIDNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testRecordOrderRFIDNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testAddProductToSaleRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.07">
+    <failure message="Error in test testAddProductToSaleRFID: This operation should not fail" type="java.lang.AssertionError">java.lang.AssertionError: Error in test testAddProductToSaleRFID: This operation should not fail
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testAddProductToSaleRFID(Testezshop20210614.java:472)
+</failure>
+  </testcase>
+  <testcase name="testAddProductToSaleRFIDEmptyRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.004"/>
+  <testcase name="testAddProductToSaleRFIDNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.017"/>
+  <testcase name="testReturnProductRFIDNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testRecordOrderArrivalRFIDNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.015"/>
+  <testcase name="testRecordOrderArrivalRFIDZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testReturnProductRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.11">
+    <failure message="Error in test testReturnProductRFID: Payment should not be considered invalid" type="java.lang.AssertionError">java.lang.AssertionError: Error in test testReturnProductRFID: Payment should not be considered invalid
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testReturnProductRFID(Testezshop20210614.java:827)
+</failure>
+    <system-out><![CDATA[Error! The return Transaction is not open]]></system-out>
+    <system-err><![CDATA[it.polito.ezshop.exceptions.InvalidPaymentException
+	at it.polito.ezshop.model.SaleTransactionModel.receiveCashPayment(SaleTransactionModel.java:120)
+	at it.polito.ezshop.data.EZShop.receiveCashPayment(EZShop.java:433)
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testReturnProductRFID(Testezshop20210614.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="testDeleteProductFromSaleRFIDNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testRecordOrderRFIDNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testDeleteProductFromSaleRFIDEmptyRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testDeleteProductFromSaleRFIDInvalidRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testReturnProductInvalidRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.091">
+    <error message="Unexpected exception, expected&lt;it.polito.ezshop.exceptions.InvalidRFIDException&gt; but was&lt;java.lang.AssertionError&gt;" type="java.lang.Exception"><![CDATA[java.lang.Exception: Unexpected exception, expected<it.polito.ezshop.exceptions.InvalidRFIDException> but was<java.lang.AssertionError>
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testReturnProductInvalidRFID(Testezshop20210614.java:959)
+]]></error>
+    <system-err><![CDATA[it.polito.ezshop.exceptions.InvalidPaymentException
+	at it.polito.ezshop.model.SaleTransactionModel.receiveCashPayment(SaleTransactionModel.java:120)
+	at it.polito.ezshop.data.EZShop.receiveCashPayment(EZShop.java:433)
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testReturnProductInvalidRFID(Testezshop20210614.java:926)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="testAddProductToSaleRFIDZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testReturnProductRFIDNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testAddProductToSaleRFIDInvalidRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testReturnProductNullRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testDeleteProductFromSaleRFIDZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testRecordOrderArrivalRFID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.094"/>
+  <testcase name="testAddProductToSaleRFIDNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.032"/>
+  <testcase name="testDeleteProductFromSaleRFIDNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testReturnProductRFIDNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0"/>
+  <testcase name="testRecordOrderArrivalRFIDOrderIDNotExisting" classname="it.polito.ezshop.acceptanceTests.Testezshop20210614" time="0.015"/>
+</testsuite>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="4.074" tests="291" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\test-classes;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\classes;C:\Users\alber\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\alber\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alber\.m2\repository\org\jdatepicker\jdatepicker\1.3.4\jdatepicker-1.3.4.jar;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\lib\ezshop-gui.jar;C:\Users\alber\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\alber\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\alber\AppData\Local\Temp\surefire6907186947411857795\surefirebooter6557039910990613280.jar C:\Users\alber\AppData\Local\Temp\surefire6907186947411857795 2021-06-17T12-01-30_842-jvmRun1 surefire2966946541667665233tmp surefire_03207946807068791896tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\test-classes;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\target\classes;C:\Users\alber\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\alber\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alber\.m2\repository\org\jdatepicker\jdatepicker\1.3.4\jdatepicker-1.3.4.jar;C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop\lib\ezshop-gui.jar;C:\Users\alber\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\alber\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\alber"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\alber\AppData\Local\Temp\surefire6907186947411857795\surefirebooter6557039910990613280.jar;C:\\Users\\alber\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.3\\org.jacoco.agent-0.8.3-runtime.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="alber"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\alber\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\alber\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\alber\Desktop\alb\uni\polito\corsi\anno 1 sem 2\Software Engineering\Project\ezshop"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;%SPARK_HOME%\bin;%HADOOP_HOME%\bin;C:\apache-maven-3.8.1\bin;C:\Users\alber\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\alber\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\alber\AppData\Local\Microsoft\WindowsApps;C:\Users\alber\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alber\.dotnet\tools;C:\Users\alber\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Users\alber\AppData\Local\Programs\Python\Python39\Lib\;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testIssueReorderWarningZeroQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.769"/>
+  <testcase name="testLoginEmptyPwd" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.013"/>
+  <testcase name="testLoginEmptyUsr" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testSendOrderForNotEnoughMoney" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.012"/>
+  <testcase name="testRecordOrderArrivalNotExisting" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.018"/>
+  <testcase name="testReceiveNullCreditCardPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.003"/>
+  <testcase name="testApplyDiscountRateToProductNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.018"/>
+  <testcase name="testGetNotExistingCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.009"/>
+  <testcase name="testApplyDiscountRateToProductNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testApplyDiscountRateToSaleGreaterThan1" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAddProductToSaleNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetAllUsersNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testEndReturnTransactionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.001"/>
+  <testcase name="testSendOrderForInvalidBarCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testModifyCustomerNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testgetSaleTransaction" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.096"/>
+  <testcase name="testReturnProductEmptyCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.017"/>
+  <testcase name="testDeleteReturnTransactionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.01"/>
+  <testcase name="testReturnProductZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testgetSaleTransactionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testCreateCardNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testIssueReorderWarningInvalid" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testGetProductTypeByBarCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testSendOrderNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteSaleTicket" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.032"/>
+  <testcase name="testCreateProductTypeNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReceiveNegativeCashPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testUpdateQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteReturnTransactionNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteReturnTransactionZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateProductNegativePrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetUserEmptyRole" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderFor" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.032"/>
+  <testcase name="testGetUserEmptyUsername" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testCloseSaleTransactionNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteProductTypeNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testModifyPointsOnNullCard" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testRecordOrderNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testApplyDiscountRateToSaleZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAddProductToSaleInvalidCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testReceiveCashPaymentNullTicket" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testStartReturnTransactionNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testSendOrderNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.066"/>
+  <testcase name="testDeleteProductFromSaleNegativeQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetBalanceOperationsNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetBalanceOperationsNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testgetSaleTransactionNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetUserNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderForNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.002"/>
+  <testcase name="testUpdatePositionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToProductNullCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testReceiveInvalidCreditCardPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCreateProductTypeNullCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testCreateProductTypeNullType" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testSendOrderNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.045"/>
+  <testcase name="testLoginNullPwd" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testLoginNullUsr" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReturnNullCreditCardPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCloseSaleTransaction" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.017"/>
+  <testcase name="testGetUserNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetUserNullRole" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testComputePointsForSaleNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.019"/>
+  <testcase name="testGetAllUsersNotAuthorized1" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.011"/>
+  <testcase name="testGetAllUsersNotAuthorized2" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.005"/>
+  <testcase name="testLogin" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetAllProductTypes" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testReturnInvalidCreditCardPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testDeleteUserNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetNotExistingProductTypeByBarCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.017"/>
+  <testcase name="testModifyPointsOnNonExistingCard" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReceiveCreditCardPaymentZeroTicket" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testIssueReorderWarningNegativeQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.053"/>
+  <testcase name="testReceiveCashPaymentLessThanNeeded" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteUserNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testRecordOrderNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testAddProductToSaleZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetAllUsers" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testUpdateQuantityNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteProductFromSaleNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderForNegativeQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testStartSaleTransaction" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testModifyPointsOnInvalidCard" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testReturnProduct" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.048"/>
+  <testcase name="testModifyPointsOnNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetAllOrdersNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToProductEmptyCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetUserZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateQuantityNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDefineCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testReceiveCashPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.102"/>
+  <testcase name="testUpdateProductNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.056"/>
+  <testcase name="testDefineCustomerNullName" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.01"/>
+  <testcase name="testDeleteNotExistingCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateUserRightsNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteProductFromSaleInvalidCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testRecordOrderArrivalNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testReturnCashPaymentNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReceiveCreditCardPaymentNegativeTicket" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteUserZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetCustomerNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateUserRights" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.031"/>
+  <testcase name="testUpdateProductEmptyCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetProductTypesByDescriptionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testModifyCustomerNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.02"/>
+  <testcase name="testUpdateProductNullCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.001"/>
+  <testcase name="testDefineCustomerNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteCustomerNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.017"/>
+  <testcase name="testSendOrderForZeroPrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetProductTypeByBarCodeNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testStartSaleTransactionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateProductZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testIssueReorderWarningNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetUser" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testReceiveCashPaymentZeroTicket" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetCustomerZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteProductTypeNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.005"/>
+  <testcase name="testCreateProductTypeNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetCustomerNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetAllCustomersNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testComputePointsForSaleNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testgetSaleTransactionNonExistent" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToProductZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testSendOrderNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.001"/>
+  <testcase name="testReturnCreditCardPaymentNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testModifyCustomerInvalidCard" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testReturnProductZeroQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderForEmptyBarCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testAddProductToSaleNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteCustomerZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteProductTypeNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testIssueReorderWarningZeroPrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdateUserRightsInvalidRole" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateNotExistingProduct" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testIssueReorderWarning" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAddProductToSaleEmptyCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testAttachCardToCustomerNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdateQuantityNotExisting" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testModifyCustomerEmptyName" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteProductTypeZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testGetUserEmptyPassword" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteProductFromSaleNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testRecordOrderArrival" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.032"/>
+  <testcase name="testUpdateQuantityNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testAddProductToSale" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetUserNullUsername" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testStartReturnTransactionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testCreateProductTypeEmptyCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCreateProductTypeEmptyType" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testRecordBalanceUpdateNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testUpdateProduct" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.032"/>
+  <testcase name="testUpdateUserRightsNotAuthorized1" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.004"/>
+  <testcase name="testUpdateUserRightsNotAuthorized2" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testApplyDiscountRateToProductFree" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteReturnTransactionNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testReturnEmptyCreditCardPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateProductNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReturnProductNegativeQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetAllOrdersNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReturnProductInvalidCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testApplyDiscountRateToProductGreaterThan1" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetProductTypeByBarCodeInvalid" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdateQuantityZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testIssueReorderWarningEmpty" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testRecordOrderArrivalNoLoc" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.031"/>
+  <testcase name="testApplyDiscountRateToSaleFree" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testStartReturnTransactionNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testStartReturnTransactionZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testDeleteProductFromSaleNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateProductEmptyDescription" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetProductTypeByBarCodeEmpty" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testRecordBalanceUpdate" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testgetSaleTransactionNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testSendOrderForNullBarCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testgetSaleTransactionZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateProductZeroPrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReceiveCreditCardPaymentNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdatePositionNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteProductFromSaleZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAddProductToSaleNegativeQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderForNegativePrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testReturnProductNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testRecordBalanceUpdateNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdatePositionInvalidLocation1" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdatePositionInvalidLocation2" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdatePositionInvalidLocation3" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteProductType" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToSaleNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testCreateCard" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.017"/>
+  <testcase name="testCreateUser" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.06"/>
+  <testcase name="testUpdateUserRightsNullRole" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.04"/>
+  <testcase name="testSendOrder" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.066"/>
+  <testcase name="testApplyDiscountRateToSaleNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.074"/>
+  <testcase name="testReturnCreditCardPaymentNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.005"/>
+  <testcase name="testIssueReorderWarningNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.029"/>
+  <testcase name="testDeleteUserNotAdmin1" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.032"/>
+  <testcase name="testDeleteUserNotAdmin2" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testCloseSaleTransactionNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderForNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testUpdateProductNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testEndReturnTransactionNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testEndReturnTransactionZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReceiveZeroCashPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReceiveEmptyCreditCardPayment" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testModifyPointsOnEmptyCard" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.01"/>
+  <testcase name="testReturnProductNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.012"/>
+  <testcase name="testGetUserNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.001"/>
+  <testcase name="testCreateExistingUser" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.209"/>
+  <testcase name="testUpdateUserRightsEmptyRole" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testIssueReorderWarningNotExisting" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteSaleTicketNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteSaleTicketZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteSaleTicketNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderForZeroQuantity" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteUserNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testIssueReorderWarningNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToProductInvalidCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteCustomerNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteUser" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReturnProductNullCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAttachInvalidCardToCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateUserRightsNegativeID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCreateProductTypeInvalidCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToSaleNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDefineCustomerEmptyName" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAttachCardToCustomerNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteProductTypeNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testComputePointsForSaleZeroTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAttachCardToNonExistingCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.001"/>
+  <testcase name="testReturnCashPaymentNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.001"/>
+  <testcase name="testCreateProductType" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReturnCashPaymentNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testReturnCashPaymentZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCreateProductTypeZeroPrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdateUserRightsNullID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAttachCardToCustomerNullId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testRecordOrderArrivalNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testRecordOrderArrivalZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToSaleNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testIssueReorderWarningNegativePrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testComputePointsForSaleNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteNotExistingProductType" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testCloseSaleTransactionNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetProductTypesByDescription" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.025"/>
+  <testcase name="testCloseSaleTransactionZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.009"/>
+  <testcase name="testGetUserNullPassword" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteSaleTicketNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCreateProductTypeNegativePrice" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testApplyDiscountRateToProductNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReturnProductNegativeTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteCustomerNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testEndReturnTransactionNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testLogout" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReceiveCashPaymentNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testUpdateQuantityNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.032"/>
+  <testcase name="testAddProductToSaleNullTId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testApplyDiscountRateToProductNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testUpdateQuantityNoLocation" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testModifyCustomerNullName" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdatePositionNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdatePositionZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateProductInvalidCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testUpdateUserRightsZeroID" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testModifyCustomerNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDeleteProductFromSaleEmptyCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testSendOrderNotEnoughMoney" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testAttachCardToCustomerZeroId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testAddProductToSaleNullCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testAttachEmptyCardToCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testSendOrderForNotExisting" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testUpdateProductNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testUpdateProductNullDescription" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.001"/>
+  <testcase name="testAttachNullCardToCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetCustomerNegativeId" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.015"/>
+  <testcase name="testReturnCreditCardPaymentNull" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testReturnCreditCardPaymentZero" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCreateExistingProductType" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.018"/>
+  <testcase name="testUpdateQuantityNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetProductTypeByBarCodeNotLogged" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testApplyDiscountRateToSale" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.031"/>
+  <testcase name="testUpdatePositionNegative" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetUserNotAuthorized1" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetUserNotAuthorized2" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testGetProductTypesByDescriptionNotAuthorized" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testCreateProductTypeNullDescription" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.016"/>
+  <testcase name="testDeleteProductFromSaleNullCode" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testDefineExistingCustomer" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.079"/>
+  <testcase name="testReceiveCashPaymentNegativeTicket" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+  <testcase name="testGetUserNotExistingRole" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0.002"/>
+  <testcase name="testReceiveCreditCardPaymentNullTicket" classname="it.polito.ezshop.acceptanceTests.Testezshop20210528" time="0"/>
+</testsuite>

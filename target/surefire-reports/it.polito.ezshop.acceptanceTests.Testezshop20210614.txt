@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: it.polito.ezshop.acceptanceTests.Testezshop20210614
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 0.705 s <<< FAILURE! - in it.polito.ezshop.acceptanceTests.Testezshop20210614
+testDeleteProductFromSaleRFID(it.polito.ezshop.acceptanceTests.Testezshop20210614)  Time elapsed: 0.126 s  <<< FAILURE!
+java.lang.AssertionError: Error in test testDeleteProductFromSaleRFID: This operation should not fail
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testDeleteProductFromSaleRFID(Testezshop20210614.java:747)
+
+testAddProductToSaleRFID(it.polito.ezshop.acceptanceTests.Testezshop20210614)  Time elapsed: 0.07 s  <<< FAILURE!
+java.lang.AssertionError: Error in test testAddProductToSaleRFID: This operation should not fail
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testAddProductToSaleRFID(Testezshop20210614.java:472)
+
+testReturnProductRFID(it.polito.ezshop.acceptanceTests.Testezshop20210614)  Time elapsed: 0.11 s  <<< FAILURE!
+java.lang.AssertionError: Error in test testReturnProductRFID: Payment should not be considered invalid
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testReturnProductRFID(Testezshop20210614.java:827)
+
+testReturnProductInvalidRFID(it.polito.ezshop.acceptanceTests.Testezshop20210614)  Time elapsed: 0.091 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<it.polito.ezshop.exceptions.InvalidRFIDException> but was<java.lang.AssertionError>
+	at it.polito.ezshop.acceptanceTests.Testezshop20210614.testReturnProductInvalidRFID(Testezshop20210614.java:959)
+
